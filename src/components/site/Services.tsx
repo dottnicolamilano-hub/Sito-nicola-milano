@@ -10,7 +10,7 @@ const services: { icon: LucideIcon; title: string; text: string }[] = [
   {
     icon: Home,
     title: "Psicoterapia Domiciliare",
-    text: "Interventi psicoterapeutici a domicilio per chi non può o non vuole spostarsi. Disponibile nei Municipi I, II, III, IV, V, VI, VII, VIII, XI e XII di Roma.",
+    text: "Interventi psicoterapeutici a domicilio per chi non può o non vuole spostarsi. Disponibile nei Municipi I, II, III, IV, V, VI, VII e VIII di Roma.",
   },
   {
     icon: MessageCircle,
