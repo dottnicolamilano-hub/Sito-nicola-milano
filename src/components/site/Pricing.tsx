@@ -22,7 +22,7 @@ type Tier = {
 
 const tiers: Tier[] = [
   { icon: UserRound, title: "Psicoterapia Individuale", price: "€55", duration: "a seduta · 50 minuti", schedule: "Lunedì – Sabato, 8:00 – 20:00", mode: "In presenza e online" },
-  { icon: Home, title: "Psicoterapia Domiciliare", price: "€60", duration: "a seduta · 1 ora", schedule: "Lunedì – Sabato, 8:00 – 20:00", mode: "Municipi I II III IV V VI VII VIII XI XII" },
+  { icon: Home, title: "Psicoterapia Domiciliare", price: "€60", duration: "a seduta · 1 ora", schedule: "Lunedì – Sabato, 8:00 – 20:00", mode: "Municipi I II III IV V VI VII VIII" },
   { icon: MessageCircle, title: "Sostegno Psicologico", price: "€50", duration: "a seduta · 50 minuti", schedule: "Lunedì – Sabato, 8:00 – 20:00", mode: "In presenza e online" },
   { icon: Users, title: "Psicoterapia di Gruppo e Familiare", price: "€70", duration: "a seduta · 1 ora", schedule: "Frequenza settimanale", mode: "In presenza e online" },
   { icon: GraduationCap, title: "Tariffa Agevolata Giovani (18–26 anni)", price: "€45", duration: "a seduta", schedule: "Psicoterapia individuale e sostegno psicologico", mode: "In presenza e online", badge: { label: "Accesso facilitato", tone: "warm" } },

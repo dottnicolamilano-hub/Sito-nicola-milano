@@ -1,4 +1,4 @@
-import { PhoneCall, Mail, MapPin, Shield, type LucideIcon } from "lucide-react";
+import { PhoneCall, Mail, MapPin, Shield, Instagram, type LucideIcon } from "lucide-react";
 
 type Item = {
   icon: LucideIcon;
@@ -11,6 +11,7 @@ type Item = {
 const items: Item[] = [
   { icon: PhoneCall, label: "Telefono", value: "+39 351 760 4612", href: "tel:+393517604612" },
   { icon: Mail, label: "Email", value: "dott.nicolamilano@gmail.com", href: "mailto:dott.nicolamilano@gmail.com", breakAll: true },
+  { icon: Instagram, label: "Instagram", value: "@nicolamilano.psi", href: "https://www.instagram.com/nicolamilano.psi/" },
   { icon: MapPin, label: "Studi", value: "Via Ercole Pasquali 9, Roma (Piazza Bologna) · Via delle Vestali 2, Roma (Furio Camillo)" },
   { icon: Shield, label: "PEC", value: "nicolafrancescomilano@psypec.it", breakAll: true },
 ];
