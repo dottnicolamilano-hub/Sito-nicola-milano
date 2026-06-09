@@ -1,5 +1,3 @@
-import profileAsset from "@/assets/profile.jpg.asset.json";
-
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
@@ -37,7 +35,7 @@ export function Hero() {
           <div className="absolute inset-0 -z-10 rounded-full bg-accent/60 blur-3xl" />
           <div className="relative h-64 w-64 overflow-hidden rounded-full ring-8 ring-white shadow-2xl md:h-96 md:w-96">
             <img
-              src={profileAsset.url}
+              src="/profile.jpg"
               alt="Dott. Nicola Milano, psicologo a Roma"
               className="h-full w-full object-cover"
               style={{ objectPosition: "center 25%" }}
